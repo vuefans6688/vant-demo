@@ -84,65 +84,65 @@
 <script>
 import { mapMutations } from 'vuex'
 export default {
-    name: 'HomeHot',
-    data() {
-      return {
-        isLoading: false,  // 下拉刷新
-        banners: [  // 轮播图
-          {
-            select: true,
-            label: '热卖',
-            name: '小米8 青春版',
-            specifications: '潮流镜面渐变色, 2400万像素',
-            currentPrice: 1399,
-            costPrice: 1599,
-            imgSrc: 'images/common/banner_1.png'
-          },
-          {
-            select: true,
-            label: '热卖',
-            name: '红米6 AI双摄',
-            specifications: '小屏高性能',
-            currentPrice: 899,
-            costPrice: 999,
-            imgSrc: 'images/common/banner_2.png'
-          },
-          {
-            select: true,
-            label: '热卖',
-            name: '小米手环3 NFC版',
-            specifications: '能刷公交车、地铁',
-            currentPrice: 199,
-            costPrice: 299,
-            imgSrc: 'images/common/banner_3.png'
-          }
-        ]
-      }
-    },
-    methods: {
-      ...mapMutations(['setGoods' ]),  // 商品信息
-      // 下拉刷新
-      onRefresh() {
-        setTimeout(() => {
-          this.$toast('刷新成功')
-          this.isLoading = false
-        }, 500)
-      },
-      // 商品列表导航
-      getList() {
-        this.$router.push('/categories')
-      },
-      // 获取商品详情
-      getDetails(data) {
-        this.setGoods(data)
-        this.$router.push('/goods')
-      },
-      // 设置图片地址
-      setImg(v) {
-        return require('../../' + v)
-      }
+  name: 'HomeHot',
+  data() {
+    return {
+      isLoading: false,  // 下拉刷新
+      banners: [  // 轮播图
+        {
+          select: true,
+          label: '热卖',
+          name: '小米8 青春版',
+          specifications: '潮流镜面渐变色, 2400万像素',
+          currentPrice: 1399,
+          costPrice: 1599,
+          imgSrc: 'images/common/banner_1.png'
+        },
+        {
+          select: true,
+          label: '热卖',
+          name: '红米6 AI双摄',
+          specifications: '小屏高性能',
+          currentPrice: 899,
+          costPrice: 999,
+          imgSrc: 'images/common/banner_2.png'
+        },
+        {
+          select: true,
+          label: '热卖',
+          name: '小米手环3 NFC版',
+          specifications: '能刷公交车、地铁',
+          currentPrice: 199,
+          costPrice: 299,
+          imgSrc: 'images/common/banner_3.png'
+        }
+      ]
     }
-};
+  },
+  methods: {
+    ...mapMutations(['setGoods' ]),  // 商品信息
+    // 下拉刷新
+    onRefresh() {
+      setTimeout(() => {
+        this.$toast('刷新成功')
+        this.isLoading = false
+      }, 500)
+    },
+    // 商品列表导航
+    getList() {
+      this.$router.push('/categories')
+    },
+    // 获取商品详情
+    getDetails(data) {
+      this.setGoods(data)
+      this.$router.push('/goods')
+    },
+    // 设置图片地址
+    setImg(v) {
+      return require('../../' + v)
+    }
+  }
+}
 </script>
 
 <style scoped lang="less">

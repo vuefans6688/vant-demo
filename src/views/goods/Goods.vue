@@ -75,7 +75,7 @@
         </div>
         <div class="goods-info">
           <div class="buy">
-            <div class="select" @click="getSku()">
+            <div class="select" @click="getSku">
               <div class="group">
                 <span>已选</span>
                 <p>小米8 屏幕指纹版 8GB+128GB 透明下x1</p>

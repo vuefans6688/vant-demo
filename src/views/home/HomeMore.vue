@@ -70,7 +70,7 @@ export default {
           obj.imgSrc = require('@/images/common/mi_phone_' + Math.round(Math.random() * 7 + 1) + '.png')
           this.dataList.push(obj)
         }
-        this.loading = false;
+        this.loading = false
         if (this.dataList.length >= 100) {
           this.finished = true
         }
