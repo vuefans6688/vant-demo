@@ -4,8 +4,5 @@ export default {
   },
   setGoodsList(state, payload) {  // 商品列表
     state.goodsList.push(payload)
-  },
-  // setTest(state, payload) {
-  //   state.test = payload
-  // }
+  }
 }

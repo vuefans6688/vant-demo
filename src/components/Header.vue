@@ -93,29 +93,14 @@ export default {
       type: String,
       default: ''
     },
-    // leftBtn: { // 左侧按钮, 不传不显示, 最多显示一个
-    //   type: Object,
-    //   default() {
-    //     return {
-    //       imgSrc: '',  // 选填, 图片地址 (按钮类型为img), 格式: require('src')
-    //       iconName: ''  // 选填, 图标名称 (按钮类型为icon)
-    //     }
-    //   }
-    // },
-    rightBtn: { // 右侧按钮, 不传不显示
+    rightBtn: {  // 右侧按钮, 不传不显示
       type: Object,
       default() {
         return {
           number: 1,  // 按钮数量 (最大为2)
-          imgSrc: [  // 选填, 图片地址 (按钮类型为img)
-            // require('@/images/icon/search.png'),
-            // require('@/images/icon/search.png')
-          ],
-          iconName: [  // 选填, 图标名称 (按钮类型为icon)
-            // 'chat-o',
-            // 'ellipsis'
-          ],
-          textValue: ''  // 选填, 文字 (建议两个汉字)
+          imgSrc: [],  // 选填 图片地址 (按钮类型为img)
+          iconName: [],  // 选填 图标名称 (按钮类型为icon)
+          textValue: ''  // 选填 文字 (建议两个汉字)
         }
       }
     }

@@ -8,19 +8,6 @@
 <template>
   <div class="tabbar">
     <van-tabbar v-model="active" active-color="#ff6700" :z-index="999">
-      <!-- 注: router-link 文本改变颜色需要设置, 所以用下面方法 -->
-      <!-- <van-tabbar-item icon="home-o">
-        <router-link to="/home">首页</router-link>
-      </van-tabbar-item>
-      <van-tabbar-item icon="apps-o">
-        <router-link to="/categories">分类</router-link>
-      </van-tabbar-item>
-      <van-tabbar-item icon="cart-o">
-        <router-link to="/cart">购物车</router-link>
-      </van-tabbar-item>
-      <van-tabbar-item icon="contact">
-        <router-link to="/account">我的</router-link>
-      </van-tabbar-item> -->
       <van-tabbar-item icon="home-o" to="/home/home-hot">首页</van-tabbar-item>
       <van-tabbar-item icon="apps-o" to="/categories">分类</van-tabbar-item>
       <van-tabbar-item icon="cart-o" to="/cart">购物车</van-tabbar-item>

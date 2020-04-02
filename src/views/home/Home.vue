@@ -18,7 +18,6 @@
     </Header>
     <!-- 顶部tab -->
     <Tab></Tab>
-    <!-- <router-view></router-view> -->
   </div>
 </template>
 

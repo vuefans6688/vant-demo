@@ -89,28 +89,7 @@ export default {
           'chat-o'
         ]
       },
-      goodsList: [  // 商品列表
-        // {
-        //     select: true,
-        //     label: '热卖',
-        //     name: '小米8 屏幕指纹版 8GB内存',
-        //     specifications: '透明 128GB',
-        //     currentPrice: 3399,
-        //     costPrice: 3599,
-        //     imgSrc: 'images/common/cart.png',
-        //     quantity: 1
-        // },
-        // {
-        //     select: true,
-        //     label: '热卖',
-        //     name: '小米7 屏幕指纹版 8GB内存',
-        //     specifications: '透明 128GB',
-        //     currentPrice: 4399,
-        //     costPrice: 4599,
-        //     imgSrc: 'images/common/cart.png',
-        //     quantity: 2
-        // }
-      ]
+      goodsList: []  // 商品列表
     }
   },
   computed: {
