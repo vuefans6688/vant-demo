@@ -23,7 +23,7 @@
           <div class="user-info-inner">
             <div class="user-name">
               <img src="@/images/common/so_young.png" alt="头像">
-              <h3>smile</h3>
+              <h3>微笑</h3>
               <span>普通用户</span>
             </div>
             <div class="vip">
@@ -112,8 +112,7 @@ export default {
   data() {
     return {
       isLoading: false,  // 下拉刷新
-      // 右侧按钮
-      rightBtn: {
+      rightBtn: {  // 右侧按钮
         number: 2,
         iconName: [
         'setting-o',

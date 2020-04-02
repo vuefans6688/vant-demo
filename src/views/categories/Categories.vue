@@ -100,7 +100,7 @@ export default {
         this.dataList.push(goods)
       }
       this.activeKey = key
-      switch(key) {
+      switch (key) {
         case 0:
           this.dataList.forEach(item => item.label = '热卖')
           break

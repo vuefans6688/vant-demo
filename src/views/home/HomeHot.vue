@@ -120,7 +120,7 @@ export default {
     }
   },
   methods: {
-    ...mapMutations(['setGoods' ]),  // 商品信息
+    ...mapMutations(['setGoods']),  // 商品信息
     // 下拉刷新
     onRefresh() {
       setTimeout(() => {
