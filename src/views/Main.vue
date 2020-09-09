@@ -1,14 +1,8 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-26 22:55:24 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-01-29 14:05:40
- */
 <!-- 主页 -->
 <template>
   <div class="main">
     <router-view></router-view>
-    <Tabbar></Tabbar>
+    <tab-bar></tab-bar>
   </div>
 </template>
 

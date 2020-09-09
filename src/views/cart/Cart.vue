@@ -1,14 +1,8 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 09:17:47 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-22 10:35:32
- */
 <!-- 购物车 -->
 <template>
   <div class="cart">
     <!-- 标题栏 -->
-    <Header
+    <header
       :isTitle="true"
       title="购物车"
       titleIcon="location"
@@ -17,7 +11,7 @@
       :rightBtn="rightBtn"
       @handleTitle="handleTitle"
       @handleIcon="handleIcon">
-    </Header>
+    </header>
     <!-- 下拉刷新 -->
     <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
       <!-- 内容 -->

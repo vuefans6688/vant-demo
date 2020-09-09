@@ -1,9 +1,3 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 17:56:16 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-12 15:08:30
- */
 <!-- 主页-新品 -->
 <template>
   <div class="home-new">

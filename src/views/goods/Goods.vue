@@ -1,20 +1,14 @@
-/*
- * @Author: ShenXianhui 
- * @Date: 2019-02-15 14:40:03 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-22 10:33:56
- */
 <!-- 商品详情 -->
 <template>
   <div class="goods">
     <!-- 标题栏 -->
-    <Header
+    <header
       :isTitle="true"
       title="商品详情"
       :isScan="false"
       :isBack="true"
       :setBack="false">
-    </Header>
+    </header>
     <!-- 内容 -->
     <div class="goods-content">
       <!-- 轮播图 -->

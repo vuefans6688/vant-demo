@@ -1,15 +1,9 @@
-/*
- * @Author: Shen Xianhui
- * @Date: 2019-01-27 17:57:57
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-13 09:10:01
- */
 <!-- 首页-优惠 -->
 <template>
   <div class="home-preferential">
     <h1>幸运大转盘</h1>
     <!-- 抽奖-转盘 -->
-    <LotteryTurntable :prize="prize" :probability="probability"></LotteryTurntable>
+    <lottery-turn-table :prize="prize" :probability="probability"></lottery-turn-table>
   </div>
 </template>
 

@@ -1,21 +1,15 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 09:16:12 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-21 16:54:12
- */
 <!-- 分类 -->
 <template>
   <div class="categories">
     <!-- 标题栏 -->
-    <Header
+    <header
       :isTitle="false"
       :placeholder="placeholder"
       :isScan="true"
       :isBack="false"
       :rightBtn="rightBtn"
       @handleIcon="handleIcon">
-    </Header>
+    </header>
     <!-- 左侧tab栏 -->
     <div class="tab-side">
       <van-badge-group :active-key="activeKey" @change="onChange">

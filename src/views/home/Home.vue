@@ -1,23 +1,17 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 11:16:28 
- * @Last Modified by: Shen Xianhui
- * @Last Modified time: 2019-01-28 22:47:15
- */
 <!-- 首页 -->
 <template>
   <div class="main-home">
     <!-- 标题栏 -->
-    <Header
+    <header
       :isTitle="false"
       :placeholder="placeholder"
       :isScan="true"
       :isBack="false"
       :rightBtn="rightBtn"
       @handleIcon="handleIcon">
-    </Header>
+    </header>
     <!-- 顶部tab -->
-    <Tab></Tab>
+    <tab></tab>
   </div>
 </template>
 

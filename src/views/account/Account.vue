@@ -1,21 +1,15 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 09:18:33 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-15 14:55:34
- */
 <!-- 我的 -->
 <template>
   <div class="account">
     <!-- 标题栏 -->
-    <Header
+    <header
       :isTitle="true"
       title="个人中心"
       :isScan="false"
       :isBack="false"
       :rightBtn="rightBtn"
       @handleIcon="handleIcon">
-    </Header>
+    </header>
     <!-- 下拉刷新 -->
     <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
       <div class="user">

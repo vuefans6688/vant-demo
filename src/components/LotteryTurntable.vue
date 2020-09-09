@@ -1,10 +1,3 @@
-/*
- * @Author: ShenXianhui 
- * @Date: 2019-02-13 09:02:32 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-02-13 17:19:49
- */
- /* 参考文章: http://www.cnblogs.com/wenruo/archive/2018/10/04/9732704.html */
 <!-- 抽奖系统-转盘-CSS3 -->
 <template>
   <div class="lottery-turntable">

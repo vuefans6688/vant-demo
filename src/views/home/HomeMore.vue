@@ -1,9 +1,3 @@
-/*
- * @Author: Shen Xianhui 
- * @Date: 2019-01-27 17:59:27 
- * @Last Modified by: ShenXianhui
- * @Last Modified time: 2019-01-30 17:04:02
- */
 <!-- 首页-更多 -->
 <template>
   <div class="home-more" ref="homeMore">
@@ -23,7 +17,7 @@
         </div>
       </div>
     </van-list>
-    <ToTop @toTop="toTop"></ToTop>
+    <to-top @toTop="toTop"></to-top>
   </div>
 </template>
 
